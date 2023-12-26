@@ -1,6 +1,7 @@
 # KKCompany-Music-Challenge-Next-5-Songcraft
 
 此競賽位於 https://www.kaggle.com/competitions/datagame-2023
+
 我們的方案排名：1/172
 
 最終設計了一個不會特別推薦熱門歌曲和運算速度自認為還算快的模型，希望能有些幫助。
@@ -12,6 +13,15 @@
 |陳品絜| MLE+pyserini 解決方案研究 | [pj-99](https://github.com/pj-99)|
 |徐韶汶| EDA分析 | [jasonshen-python](https://github.com/jasonshen-python) |
 |沈欣柏| 深度學習研究 | [AngelaHsu02](https://github.com/AngelaHsu02) |
+
+## 運行環境
+
+* ubuntu 22.04
+* python 3.10.12
+
+### 前置動作
+將 datagame-2023 資料夾放置在本專案下，具體運行請參閱 final 資料夾內的 README.md
+
 
 ## Overview
 歡迎參加我們的音樂推薦競賽！這個競賽旨在挑戰您的機器學習和數據分析技能，以改進音樂串流體驗。您的任務是預測用戶在同一個聆聽 session 內聆聽一定數量歌曲後，接下來可能會聆聽哪些歌曲。這將有助於打造更個性化的音樂推薦服務，提高用戶滿意度。我們特別強調參賽者需要謹慎避免過度集中於熱門音樂，以確保推薦結果更多元化，滿足不同用戶的需求。期待參賽者的創新方法，以改進音樂串流體驗，提高用戶滿意度。
