@@ -1,0 +1,10 @@
+numpy
+pandas
+tqdm
+pyserini
+faiss-cpu
+chardet
+torch
+torchvision
+matplotlib
+pyarrow
