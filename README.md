@@ -4,15 +4,17 @@
 
 我們的方案排名：1/172
 
-最終設計了一個不會特別推薦熱門歌曲和運算速度自認為還算快的模型，希望能有些幫助。
+最終設計了一個不會特別推薦熱門歌曲和運算速度自認為還算快的模型，方案中無任何機器學習方案和隨機項，依據統計學組成整個模型架構。
+
+純靠 n grams 架構可以得到 0.54 的分數(可以推估 70 萬首結果中的 50 萬首），加上 Jelinek-Mercer 語言模型可以將分數衝到 0.565。
 
 ## Contributors
 |組員|貢獻內容|github|
 |-|-|-|
 |陳繹帆| ngrams+JMLM 解決方案研究 | [afan0918](https://github.com/afan0918) |
 |陳品絜| MLE+pyserini 解決方案研究 | [pj-99](https://github.com/pj-99)|
-|徐韶汶| EDA分析 | [jasonshen-python](https://github.com/jasonshen-python) |
-|沈欣柏| 深度學習研究 | [AngelaHsu02](https://github.com/AngelaHsu02) |
+|徐韶汶| EDA分析 | [AngelaHsu02](https://github.com/AngelaHsu02) |
+|沈欣柏| 深度學習研究 | [jasonshen-python](https://github.com/jasonshen-python) |
 
 ## 運行環境
 
