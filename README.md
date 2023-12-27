@@ -9,6 +9,7 @@
 純靠 n grams 架構可以得到 0.54 的分數(可以推估 70 萬首結果中的 50 萬首），加上 Jelinek-Mercer 語言模型可以將分數衝到 0.565。
 
 ## Contributors
+
 |組員|貢獻內容|github|
 |-|-|-|
 |陳繹帆| ngrams+JMLM 解決方案研究 | [afan0918](https://github.com/afan0918) |
@@ -16,14 +17,16 @@
 |徐韶汶| EDA分析 | [AngelaHsu02](https://github.com/AngelaHsu02) |
 |沈欣柏| 深度學習研究 | [jasonshen-python](https://github.com/jasonshen-python) |
 
+## 運行前置動作（重要）
+
+資料集不外流，請自行到 kaggle 下載後，將 datagame-2023 資料夾放置在本專案下，之後的具體運行請參閱 final 資料夾內的 README.md
+
 ## 運行環境
 
-* ubuntu 22.04
-* python 3.10.12
+* Ubuntu 22.04(X86), python 3.10.12
+* MacBook Pro(X86), python 3.10.12
 
-### 前置動作
-將 datagame-2023 資料夾放置在本專案下，具體運行請參閱 final 資料夾內的 README.md
-
+其他環境下不保證能夠運行，但可以嘗試
 
 ## Overview
 歡迎參加我們的音樂推薦競賽！這個競賽旨在挑戰您的機器學習和數據分析技能，以改進音樂串流體驗。您的任務是預測用戶在同一個聆聽 session 內聆聽一定數量歌曲後，接下來可能會聆聽哪些歌曲。這將有助於打造更個性化的音樂推薦服務，提高用戶滿意度。我們特別強調參賽者需要謹慎避免過度集中於熱門音樂，以確保推薦結果更多元化，滿足不同用戶的需求。期待參賽者的創新方法，以改進音樂串流體驗，提高用戶滿意度。
