@@ -23,10 +23,16 @@ pip install -r requirements.txt
 * 執行 generate_n_gram_test.ipynb，會看到出現三個檔案(cfd_3grams_test、cfd_4grams_test、cfd_5grams_test)
 * 執行 result.ipynb，得到要繳交的運算結果 ngrams_jmlm0.9999_token10.csv
 * 成績:0.56505，感覺有哪裡出問題導致掉了一點分數
-* 如果要重現 0.56580 的結果，可以下載這個 [result](https://drive.google.com/file/d/1z9GoLsC7ze_thaXWuKJArxhWjmrpVXU0/view?usp=drive_link)，雖然最後都在調參數拉分數，但pyserini 感覺有
+* 如果要重現 0.56580 的結果，可以下載這個 [result](https://drive.google.com/file/d/1z9GoLsC7ze_thaXWuKJArxhWjmrpVXU0/view?usp=drive_link)，雖然最後都在調參數拉分數，但 pyserini 感覺有一些分數可以榨出來。
 
 ## 執行時間測試環境
 
 * CPU:i5-12400
 * 記憶體:64GB
 * 記憶體空間不足的話可能會需要使用硬碟做為記憶體，會導致 ngrams 的運行速度大幅降低
+
+## 比賽之後
+
+* 寫出了 result_after_game.ipynb
+* 能夠 Score: 0.56580 -> Score: 0.56691
+* 後續應該還能引入機器學習去動態評定優先級，但我就很懶惰啊，感覺測資要搞很久。
